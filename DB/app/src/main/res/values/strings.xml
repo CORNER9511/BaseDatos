@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DB</string>
+    <string name="tvTitulo">Gestión de Usuario</string>
+    <string name="etDocumento">Ingrese el documento</string>
+    <string name="etUsuario">Ingrese el usuario</string>
+    <string name="etNombres">Ingrese los nombres</string>
+    <string name="etApellidos">Ingrese los apellidos</string>
+    <string name="etContraseña">Ingrese la contraseña</string>
+    <string name="btnRegistrar">Guardar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnBorrar">Borrar</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitulo"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="12dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <EditText
+        android:id="@+id/etDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/etDocumento" />
+
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/etUsuario" />
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNombres"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etApellidos"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etContraseña"
+        android:inputType="textPassword" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegistrar"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="222dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBuscar"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="225dp"
+        android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnListar"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="293dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBorrar"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="300dp"
+        android:layout_weight="1"/>
+    </TableRow>
+    <ListView
+        android:id="@+id/lvLista"
+        android:layout_width="409dp"
+        android:layout_height="381dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="349dp" />
+</LinearLayout>
